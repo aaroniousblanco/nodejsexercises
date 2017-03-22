@@ -25,6 +25,7 @@ rl.question("What's your file? ", function(filename) {
     var capped = contents.toUpperCase();
     console.log(capped);
   });
+  rl.close();
 });
 
 // Trigger an error condition by running the program on a non-existent file. Your program should display the error message, and it should display something like:
